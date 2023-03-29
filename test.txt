@@ -1,16 +1,9 @@
-import { Box, Heading, Img, Text } from '@chakra-ui/react'
-import React from 'react'
-import  "./navbar.css";
-import { Tooltip } from '@chakra-ui/react'
-function Navbar({image}) {
-  return (
-  <>
-    <div  className="main-header navbar navbar-expand-md navbar-light navbar-white"
+ <div  className="main-header navbar navbar-expand-md navbar-light navbar-white"
     // className='Navbar'
     style={{fontFamily: "araial-black", fontWeight:"bold"}}
     >
   <div className="container">
-      <img src="https://www.cipherschools.com/static/media/Cipherschools_icon@2x.3b571d743ffedc84d039.png"
+      <img src="https://www.cipherschools.com/static/media/Cipherschools_icon@2x.3b571d743ffedc84d039.png" 
       alt="Chipher-logo" className="brand-image img-circle elevation-3" 
      
       />
@@ -108,10 +101,3 @@ function Navbar({image}) {
   
   </div>
 </div>
-</>
-
-           
-  )
-}
-
-export default Navbar
