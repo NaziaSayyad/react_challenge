@@ -18,10 +18,8 @@ function Login() {
   return (
    
     <>
-      <Button onClick={onOpen}>Open Modal</Button>
-      <Button ml={4} ref={finalRef}>
-        I'll receive focus on close
-      </Button>
+      <p onClick={onOpen}>Login </p>
+      
 
       <Modal
         initialFocusRef={initialRef}

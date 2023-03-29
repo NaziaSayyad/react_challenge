@@ -79,7 +79,7 @@ function Navbar({image}) {
          <Img 
           cursor={'pointer'} mt='10px'
           w={'25px'} ml='35%'border='1px solid' borderRadius={'50%'}
-           src={image}
+           src=""
          />
          </Tooltip>
       </div>
